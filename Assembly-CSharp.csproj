@@ -60,26 +60,26 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.25f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\_UI\MainMenu.cs" />
-    <Compile Include="Assets\_UI\Victory.cs" />
-    <Compile Include="Assets\_UI\GameWin.cs" />
-    <Compile Include="Assets\_CodeSound\CoinSound.cs" />
-    <Compile Include="Assets\_CodeSound\FlashSound.cs" />
-    <Compile Include="Assets\_CodeSound\ExploreSound.cs" />
-    <Compile Include="Assets\_UI\OkGame.cs" />
-    <Compile Include="Assets\_Spawn\SpawnFl.cs" />
-    <Compile Include="Assets\_CodeSound\AudioManager.cs" />
-    <Compile Include="Assets\_FollowMaterial\FollowCamera.cs" />
-    <Compile Include="Assets\_CodeSound\PlayerSound.cs" />
-    <Compile Include="Assets\_UI\GameOver.cs" />
-    <Compile Include="Assets\_UI\TextGame.cs" />
-    <Compile Include="Assets\_CodeSound\BompSound.cs" />
-    <Compile Include="Assets\_MoveMaterial\MoveObjectBackAndForth.cs" />
-    <Compile Include="Assets\_Pool\PoolManager.cs" />
-    <Compile Include="Assets\_MoveMaterial\ControllerCar.cs" />
-    <Compile Include="Assets\_CodeSound\WinSound.cs" />
-    <Compile Include="Assets\_MoveMaterial\MoveCar.cs" />
-    <Compile Include="Assets\_FollowMaterial\FollowToCar.cs" />
+    <Compile Include="Assets\_SCRIPTS\_CodeSound\BompSound.cs" />
+    <Compile Include="Assets\_SCRIPTS\_CodeSound\PlayerSound.cs" />
+    <Compile Include="Assets\_SCRIPTS\_Pool\PoolManager.cs" />
+    <Compile Include="Assets\_SCRIPTS\_UI\OkGame.cs" />
+    <Compile Include="Assets\_SCRIPTS\_UI\MainMenu.cs" />
+    <Compile Include="Assets\_SCRIPTS\_CodeSound\FlashSound.cs" />
+    <Compile Include="Assets\_SCRIPTS\_FollowMaterial\FollowToCar.cs" />
+    <Compile Include="Assets\_SCRIPTS\_UI\GameWin.cs" />
+    <Compile Include="Assets\_SCRIPTS\_CodeSound\AudioManager.cs" />
+    <Compile Include="Assets\_SCRIPTS\_UI\TextGame.cs" />
+    <Compile Include="Assets\_SCRIPTS\_UI\Victory.cs" />
+    <Compile Include="Assets\_SCRIPTS\_FollowMaterial\FollowCamera.cs" />
+    <Compile Include="Assets\_SCRIPTS\_UI\GameOver.cs" />
+    <Compile Include="Assets\_SCRIPTS\_CodeSound\WinSound.cs" />
+    <Compile Include="Assets\_SCRIPTS\_CodeSound\CoinSound.cs" />
+    <Compile Include="Assets\_SCRIPTS\_CodeSound\ExploreSound.cs" />
+    <Compile Include="Assets\_SCRIPTS\_Spawn\SpawnFl.cs" />
+    <Compile Include="Assets\_SCRIPTS\_MoveMaterial\ControllerCar.cs" />
+    <Compile Include="Assets\_SCRIPTS\_MoveMaterial\MoveObjectBackAndForth.cs" />
+    <Compile Include="Assets\_SCRIPTS\_MoveMaterial\MoveCar.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -99,7 +99,6 @@
     <None Include="Assets\_Image\COPY SPRIGHT\Comic Battle Royale\2D Character - Astronaut\Documentation.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\_Image\Platformer Art Pack\Documentation.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
