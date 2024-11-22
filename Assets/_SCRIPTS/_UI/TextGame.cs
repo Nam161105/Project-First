@@ -13,14 +13,8 @@ public class TextGame : MonoBehaviour
     [SerializeField] protected TextMeshProUGUI keyText;
     public GameObject gameOverObject;
     public static bool isGameOver = false;
-
-    public AudioManager audioManager5;
     protected bool isRunning = false;
 
-    private void Awake()
-    {
-        audioManager5 = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
-    }
     private void Start()
     {
         heartText.SetText(heart.ToString());
@@ -44,7 +38,7 @@ public class TextGame : MonoBehaviour
             heartText.SetText(heart.ToString());
             if (heart == 0)
             {
-                audioManager5.PlaySFX(audioManager5.gameoverClip);
+                AudioManager.Instance.PlaySFX(AudioManager.Instance.gameoverClip);
                 gameOverObject.SetActive(true);
                 isGameOver = true;
             }
@@ -71,7 +65,7 @@ public class TextGame : MonoBehaviour
             heart = 0;
             heartText.SetText(heart.ToString());
             gameOverObject.SetActive(true);
-            audioManager5.PlaySFX(audioManager5.gameoverClip);
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.gameoverClip);
             isGameOver = true ;
         }
     }

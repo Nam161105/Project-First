@@ -4,18 +4,12 @@ using UnityEngine;
 
 public class CoinSound : MonoBehaviour
 {
-    public AudioManager audioManager;
-
-    private void Awake()
-    {
-        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
-    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Car"))
         {
-            audioManager.PlaySFX(audioManager.coinClip);
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.coinClip);
             Destroy(gameObject);
         }
     }
